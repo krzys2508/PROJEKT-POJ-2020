@@ -60,9 +60,9 @@ public class Logic extends JFrame
     private RodzajSzyfrowania rodzajSzyfr = RodzajSzyfrowania.CEZAR;
 
     String podajNazwePliku = "Podaj nazwe pliku to szyfrowania za pomocą ";
-    private JLabel labelDes = new JLabel(podajNazwePliku + RodzajSzyfrowania.DES.getName()); // nowa label dla des
-    private JLabel labelCezar = new JLabel(podajNazwePliku + RodzajSzyfrowania.CEZAR.getName()); // nowa label dla cezar
-    private JLabel labelAes = new JLabel(podajNazwePliku + RodzajSzyfrowania.AES.getName()); // nowa label dla aes
+    private JLabel labelDes = new JLabel(podajNazwePliku + RodzajSzyfrowania.DES.getName());
+    private JLabel labelCezar = new JLabel(podajNazwePliku + RodzajSzyfrowania.CEZAR.getName());
+    private JLabel labelAes = new JLabel(podajNazwePliku + RodzajSzyfrowania.AES.getName());
 
     private JLabel labelNieznaneSzyfrowanie = new JLabel("Nie mozna rozszyfrowac plik o podanym rozszerzeniu !");
     private JLabel labelPlikZaszyfrowano = new JLabel("Plik zostal zaszyfrowany.");
